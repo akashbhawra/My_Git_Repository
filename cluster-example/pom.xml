@@ -153,6 +153,18 @@
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
+
+				<plugin>
+   					<groupId>org.jboss.as.plugins</groupId>
+   					<artifactId>jboss-as-maven-plugin</artifactId>
+   					<version>7.4.0.Final-redhat-19</version>
+   					<configuration>
+      						<hostname>${hostname}</hostname>
+      						<port>9990</port>
+      						<username>jenkins</username>
+      						<password>Tprbasg@123</password>
+   					</configuration>
+					</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
